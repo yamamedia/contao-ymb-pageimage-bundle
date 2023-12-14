@@ -1,0 +1,47 @@
+{
+    "name": "yamamedia/contao-ymb-pageimage-bundle",
+    "description": "Contao bundle pageimage",
+    "license": "LGPL-3.0-or-later",
+    "type": "contao-bundle",
+    "authors": [
+        {
+            "name": "Yama Media",
+            "homepage": "https://github.com/yamamedia"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/yamamedia/contao-ymb-pageimage-bundle/issues",
+        "source": "https://github.com/yamamedia/contao-ymb-pageimage-bundle"
+    },
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "contao/core-bundle": "^4.13",
+        "symfony/config": "^5.4",
+        "symfony/dependency-injection": "^5.4",
+        "symfony/http-kernel": "^5.4"
+    },
+    "require-dev": {
+        "bamarni/composer-bin-plugin": "^1.5",
+        "contao/manager-plugin": "^2.0",
+        "phpunit/phpunit": "^9.5",
+        "symfony/phpunit-bridge": "^6.1"
+    },
+    "conflict": {
+        "contao/manager-plugin": "<2.0 || >=3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yamamedia\\ContaoYmbSiteimageBundle\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "bamarni/composer-bin-plugin": true,
+            "contao-components/installer": true,
+            "contao/manager-plugin": true
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "Yamamedia\\ContaoYmbPageimageBundle\\ContaoManager\\Plugin"
+    }
+}
