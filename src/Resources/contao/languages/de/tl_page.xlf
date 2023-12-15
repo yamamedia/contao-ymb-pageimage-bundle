@@ -5,11 +5,11 @@
         <source>Pagemage</source>
         <target>Seitenbild</target>
       </trans-unit>
-      <trans-unit id="tl_page.ymbSiteimage.0">
+      <trans-unit id="tl_page.ymbPageimage.0">
         <source>Image</source>
         <target>Bild</target>
       </trans-unit>
-	  <trans-unit id="tl_page.ymbSiteimage.1">
+	  <trans-unit id="tl_page.ymbPageimage.1">
         <source>Choose Image</source>
         <target>Wähle ein Bild</target>
       </trans-unit>
