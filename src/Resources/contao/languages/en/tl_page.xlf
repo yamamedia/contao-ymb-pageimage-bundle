@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_page.php" source-language="en">
+    <body>
+      <trans-unit id="tl_page.ymbPageimage_legend">
+        <source>Pageimage</source>
+      </trans-unit>
+      <trans-unit id="tl_page.ymbPageimage.0">
+        <source>Image</source>
+      </trans-unit>
+      <trans-unit id="tl_page.ymbPageimage.1">
+        <source>Choose Image</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
