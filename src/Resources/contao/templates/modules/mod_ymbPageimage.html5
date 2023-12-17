@@ -1,0 +1,22 @@
+<?php $this->extend('block_searchable'); ?>
+
+<?php $this->block('content'); ?>
+
+<?php
+if($this->ymbPIcheck){
+	echo('test');
+}
+
+if($this->ymbPIdescription){
+	echo('{{page::description}}');
+}
+
+
+//echo($this->ymbPIcheck); 
+
+//print_r($this);
+
+?>
+
+<?php $this->endblock(); ?>
+

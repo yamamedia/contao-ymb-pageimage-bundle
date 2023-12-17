@@ -1,0 +1,30 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_module.php" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="tl_module.ymbPI_legend">
+        <source>Pageimage</source>
+        <target>Seitenbild</target>
+      </trans-unit>
+	  <trans-unit id="tl_module.ymbPIH_legend">
+        <source>Pageimage</source>
+        <target>Seitenbild</target>
+      </trans-unit>
+	  <trans-unit id="tl_module.ymbPIcheck.0">
+        <source>Pageimage</source>
+		<target>Seitenbild</target>
+      </trans-unit>
+	  <trans-unit id="tl_module.ymbPIcheck.1">
+        <source>Add the Pageimage to the template</source>
+		<target>Seitenbild dem Template hinzufügen</target>
+      </trans-unit>
+	  <trans-unit id="tl_module.ymbPIdescription.0">
+        <source>Pagedescription</source>
+		<target>Seitenbeschreibung</target>
+      </trans-unit>
+	  <trans-unit id="tl_module.ymbPIdescription.1">
+        <source>Add the Pagedescription to the template</source>
+		<target>Seitenbeschreibung dem Template hinzufügen</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

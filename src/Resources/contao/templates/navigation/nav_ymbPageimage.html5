@@ -1,0 +1,31 @@
+<?php ?>
+
+<div class="navPageimageBox">
+	<?php foreach ($this->items as $item): ?>
+		  
+		  <div class="navPageimageItem">
+			  <a href="<?= $item['href'] ?: './' ?>" title="<?= $item['pageTitle'] ?: $item['title'] ?>"<?php if ($item['class']): ?> class="<?= $item['class'] ?>"<?php endif; ?><?php if ('' !== $item['accesskey']): ?> accesskey="<?= $item['accesskey'] ?>"<?php endif; ?><?php if ($item['tabindex']): ?> tabindex="<?= $item['tabindex'] ?>"<?php endif; ?><?= $item['target'] ?><?= $item['rel'] ?? '' ?><?php if (!empty($item['subitems'])): ?> aria-haspopup="true"<?php endif; ?>>
+			  <?php 
+			  echo $this->figure(
+				$item['ymbPageimage'], [0, 0, 6], 
+				[ 
+				  'options' => ['attr' => ['class' => 'imgPage']],
+				]
+			  ); 
+			  ?>
+			  </a>
+
+			  <div class="navPageimageTitle">
+				  <a href="<?= $item['href'] ?: './' ?>" title="<?= $item['pageTitle'] ?: $item['title'] ?>"<?php if ($item['class']): ?> class="<?= $item['class'] ?>"<?php endif; ?><?php if ('' !== $item['accesskey']): ?> accesskey="<?= $item['accesskey'] ?>"<?php endif; ?><?php if ($item['tabindex']): ?> tabindex="<?= $item['tabindex'] ?>"<?php endif; ?><?= $item['target'] ?><?= $item['rel'] ?? '' ?><?php if (!empty($item['subitems'])): ?> aria-haspopup="true"<?php endif; ?>>
+					  <p><?= $item['link'] ?></p>
+				  </a>
+			  </div>
+			 
+		  </div>
+    
+  <?php endforeach; ?>
+</div>
+
+<?php
+echo($checker)	
+?>
